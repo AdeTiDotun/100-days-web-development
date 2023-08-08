@@ -49,3 +49,8 @@ a {
 a:hover, a:active {
     background-color: yellow;
 }
+
+footer {
+    text-align: center;
+    margin-bottom: 100px;
+}
