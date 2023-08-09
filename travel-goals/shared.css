@@ -1,6 +1,10 @@
 #page-logo {
     margin: 0;
-    padding: 0;
+    padding: 20px;
     text-decoration: none;
-    font-family: font-family: 'Borel', cursive;
+    font-size: 50px;
+    color: yellow;
+    text-transform: capitalize;
+    text-shadow: 2px 4px 3px black;
+    font-family: 'Dancing Script', cursive;
 }
