@@ -1,1 +1,1 @@
-This folder contains files in regards to the travel agency website task of the 100 days web development course.
+This folder contains different files that will be used to build a travel agency website
