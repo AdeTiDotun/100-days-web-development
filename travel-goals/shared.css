@@ -1,3 +1,9 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #page-logo {
     margin: 0;
     padding: 20px;
@@ -7,4 +13,14 @@
     text-transform: capitalize;
     text-shadow: 2px 4px 3px black;
     font-family: 'Dancing Script', cursive;
+}
+
+#navigation-items {
+    display: flex;
+    list-style: none;
+    margin-right: 40px;
+}
+
+#navigation-items li {
+    margin-left: 50px;
 }
