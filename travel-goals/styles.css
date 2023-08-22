@@ -40,3 +40,22 @@
 #hero-content a:hover {
     color: yellowgreen;
 }
+
+#highlight {
+    width: 100%;
+    background: linear-gradient(50% #89f8f4 #d4fdfc);
+}
+
+#highlights {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+}
+
+#highlights img {
+    height: 200px;
+    width: 450px;
+    border-radius: 8px;
+    object-fit: cover;
+}
