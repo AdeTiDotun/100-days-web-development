@@ -3,6 +3,7 @@
     height: 800px;
     background-position: center;
     background-size: cover;
+    margin-bottom: 0;
 }
 
 #hero-content {
@@ -41,14 +42,9 @@
     color: yellowgreen;
 }
 
-#highlight {
-    width: 100%;
-    background: linear-gradient(50% #89f8f4 #d4fdfc);
-}
-
 #highlights {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style: none;
     text-align: center;
 }
