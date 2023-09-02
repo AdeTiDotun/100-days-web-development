@@ -41,17 +41,3 @@
 #hero-content a:hover {
     color: yellowgreen;
 }
-
-#highlights {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    text-align: center;
-}
-
-#highlights img {
-    height: 200px;
-    width: 450px;
-    border-radius: 8px;
-    object-fit: cover;
-}
