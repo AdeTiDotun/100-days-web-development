@@ -39,3 +39,33 @@ header a:hover {
 #navigation-items li {
     margin-left: 50px;
 }
+
+#contacts {
+    background: black;
+    padding-bottom: 30px;
+}
+
+#contacts p {
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+
+#contact-me {
+    display: flex;
+    justify-content: center;
+}
+.contact {
+    list-style: none;
+    padding: 10px;
+    margin: auto 50px auto 50px;
+}
+
+.contact a {
+    color: aqua;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: azure;
+}
