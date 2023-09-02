@@ -36,8 +36,38 @@
     color: black;
     border-radius: 8px;
     box-shadow: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #hero-content a:hover {
     color: yellowgreen;
+}
+
+#highlights {
+    background: azure;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+
+#destinations {
+    display: flex;
+    justify-content: space-between;
+}
+
+.destination {
+    width: 90%;
+    list-style: none;
+    text-align: center;
+}
+
+.destination img {
+    height: 200px;
+    width: 80%;
+    object-fit: fill;
+    border-radius: 8px;
+}
+
+.destination strong {
+    color: aqua;
 }
