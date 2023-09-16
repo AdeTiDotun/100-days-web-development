@@ -6,6 +6,10 @@ header {
     position: static;
 }
 
+main ul {
+    width: 800px;
+}
+
 main ul img {
     width: 300px;
     height: 280px;
@@ -13,4 +17,12 @@ main ul img {
 
 main ul li {
     list-style: none;
+}
+
+main li {
+    display: flex;
+}
+
+.item-content {
+    background-color: white;
 }
