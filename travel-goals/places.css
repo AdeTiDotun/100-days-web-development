@@ -8,21 +8,38 @@ header {
 
 main ul {
     width: 800px;
+    margin: 0 auto;
 }
 
 main ul img {
     width: 300px;
     height: 280px;
+    object-fit: cover;
+    
 }
 
 main ul li {
     list-style: none;
+    box-shadow: 2px 2px 6px black;
 }
 
 main li {
     display: flex;
+    overflow: visible;
+    
+}
+
+main a {
+    text-decoration: none;
+}
+
+main a:hover {
+    border-radius: px;
+    color: rgb(74, 170, 214);
 }
 
 .item-content {
     background-color: white;
+    border-radius: 6px;
+    padding: 24px;
 }
