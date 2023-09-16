@@ -1,0 +1,16 @@
+body {
+    background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
+}
+
+header {
+    position: static;
+}
+
+main ul img {
+    width: 300px;
+    height: 280px;
+}
+
+main ul li {
+    list-style: none;
+}
