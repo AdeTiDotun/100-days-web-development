@@ -1,5 +1,6 @@
 body {
     background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
+    color: rgb(77, 74, 74);
 }
 
 header {
@@ -9,24 +10,20 @@ header {
 main ul {
     width: 800px;
     margin: 0 auto;
+    border-radius: 10px;
 }
 
 main ul img {
     width: 300px;
     height: 280px;
     object-fit: cover;
-    
+    overflow: visible;
 }
 
 main ul li {
+    display: flex;
     list-style: none;
     box-shadow: 2px 2px 6px black;
-}
-
-main li {
-    display: flex;
-    overflow: visible;
-    
 }
 
 main a {
@@ -34,12 +31,18 @@ main a {
 }
 
 main a:hover {
-    border-radius: px;
     color: rgb(74, 170, 214);
 }
 
 .item-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: white;
-    border-radius: 6px;
     padding: 24px;
 }
+
+main p {
+    text-align: right;
+}
+
