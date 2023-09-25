@@ -7,27 +7,26 @@ header {
     position: static;
 }
 
-main ul {
+ul {
     width: 800px;
     margin: 0 auto;
     border-radius: 10px;
-    padding-bottom: 50px;
 }
 
-main ul img {
-    width: 300px;
+ul img {
+    width: 200px;
     height: 280px;
     object-fit: cover;
     overflow: visible;
 }
 
-main ul li {
+ul li {
     display: flex;
     list-style: none;
     box-shadow: 2px 2px 6px black;
 }
 
-main a {
+a {
     text-decoration: none;
 }
 
@@ -41,7 +40,9 @@ main a:hover {
     justify-content: space-between;
     background-color: white;
     padding: 24px;
-    width: 300px;
+    width: 200px;
+    height: 230px;
+    
 }
 
 main p {
