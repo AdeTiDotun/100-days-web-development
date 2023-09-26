@@ -8,7 +8,7 @@ header {
 }
 
 main ul {
-    padding-top: 50px;
+    padding: 50px 0 20px 0;
     width: fit-content;
     margin: 0 auto;
     display: grid;
@@ -36,7 +36,10 @@ main a {
 }
 
 main a:hover {
-    color: rgb(74, 170, 214);
+    color: black;
+    border-radius: 6px;
+    background-color: rgb(200, 228, 241);
+    padding: 3px 6px;
 }
 
 .item-content {
@@ -48,7 +51,10 @@ main a:hover {
     width: 300px;
 }
 
-main p {
+.actions {
     text-align: right;
 }
 
+main p {
+    text-align: right;
+}
