@@ -7,16 +7,19 @@ header {
     position: static;
 }
 
-ul {
-    width: 800px;
-    margin: 0 auto;
+main ul {
+    width: 1000px;
     border-radius: 10px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
 }
 
-ul img {
-    width: 200px;
+main ul img {
+    width: 260px;
     height: 280px;
-    object-fit: cover;
+    object-fit: fill;
     overflow: visible;
 }
 
@@ -24,9 +27,10 @@ ul li {
     display: flex;
     list-style: none;
     box-shadow: 2px 2px 6px black;
+    margin-left: 10px;
 }
 
-a {
+main a {
     text-decoration: none;
 }
 
@@ -39,10 +43,8 @@ main a:hover {
     flex-direction: column;
     justify-content: space-between;
     background-color: white;
-    padding: 24px;
-    width: 200px;
-    height: 230px;
-    
+    padding: 20px;
+    width: 300px;
 }
 
 main p {
