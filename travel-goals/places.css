@@ -8,11 +8,12 @@ header {
 }
 
 main ul {
-    width: 1000px;
-    border-radius: 10px;
+    padding-top: 50px;
+    width: fit-content;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 10px 10px;
     
 }
 
@@ -27,7 +28,7 @@ ul li {
     display: flex;
     list-style: none;
     box-shadow: 2px 2px 6px black;
-    margin-left: 10px;
+    border-radius: 10px;
 }
 
 main a {
