@@ -18,3 +18,15 @@
     display: flex;
     justify-content: space-between;
 }
+
+/* main */
+
+main {
+    width: 100%;
+    background-color:   rgb(238, 72, 72);
+    color: orange;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+}
