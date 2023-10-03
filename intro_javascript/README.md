@@ -1,0 +1,1 @@
+This folder treats the basics introduction to Javascript.
