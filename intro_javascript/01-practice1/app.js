@@ -20,8 +20,12 @@
 //    - The custom command should provide the accessed value (i.e. the list element)
 // 6) Execute your custom command from (5) and output ("alert") the result
 
-//Answer question 1
+// Answer question 1
 var onlineCourse = "Academind";
 var priceCourse = "3000";
 var mainGoals = "Developer";
 
+// Answer question 2
+alert (onlineCourse);
+alert (priceCourse);
+alert (mainGoals);
