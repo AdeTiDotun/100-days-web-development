@@ -20,6 +20,15 @@ alert (priceCourse);
 alert (mainGoals);
 
 // 3) Try "grouping" the three variables together and still output their values thereafter
+let group = {
+    onlineCourse: 'Academind', 
+    priceCourse: 3000, 
+    mainGoals: ['Developer', 'Job', 'Freedom']
+}
+
+alert (group.onlineCourse);
+alert (group.priceCourse);
+alert (group.mainGoals);
 // 4) Also output the second element in your "main goals" variable
 // 5) Add a custom command that does the following:
 //    - Use your "main goals" variable and access an element by its identifier
@@ -30,14 +39,4 @@ alert (mainGoals);
 //    - The custom command should provide the accessed value (i.e. the list element)
 // 6) Execute your custom command from (5) and output ("alert") the result
 
-
-
-// Answer question 3
-let group = {
-    name: 'Academind', 
-    price: 3000, 
-    Goals: "Developer"
-}
-
-alert(group.name)
 
