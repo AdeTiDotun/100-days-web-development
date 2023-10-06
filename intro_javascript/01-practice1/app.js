@@ -10,11 +10,11 @@
 //    - A variable that stores the price of that course
 //    - A variable that stores the three main goals that you have, when taking this course
 
-/**let onlineCourse = "Academind";
+let onlineCourse = "Academind";
 let priceCourse = 3000;
 let mainGoals = ['Developer', 'Job', 'Freedom'];
 
-// 2) Output ("alert") the three variable values
+// 2) Alert the values
 alert (onlineCourse);
 alert (priceCourse);
 alert (mainGoals);
@@ -40,14 +40,14 @@ alert (mainGoals[1]);
 //    - The "main goals" variable should also be dynamic: The command should work 
 //      with ANY list of values
 //    - The custom command should provide the accessed value (i.e. the list element)
-*/
 
-let mainGoals;
+
 function groupFunction(goals) {
-    return ['Developer', 'Job', 'Freedom']
+    let mainGoals =  goals;
+    return goals;
 }
 
 // 6) Execute your custom command from (5) and output ("alert") the result
 
-targetGoals = groupFunction();
+let targetGoals = groupFunction(mainGoals);
 alert (targetGoals);
