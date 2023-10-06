@@ -1,4 +1,5 @@
 // This is how a comment is added to JavaScript
+
 // Comments are not executed - they are just there to provide extra
 // information to you or other developers
 
@@ -8,6 +9,11 @@
 //    - A variable that stores the name of an online course of your choice
 //    - A variable that stores the price of that course
 //    - A variable that stores the three main goals that you have, when taking this course
+
+let onlineCourse = "Academind";
+let priceCourse = 3000;
+let mainGoals = ['Developer', 'Job', 'Freedom'];
+
 // 2) Output ("alert") the three variable values
 // 3) Try "grouping" the three variables together and still output their values thereafter
 // 4) Also output the second element in your "main goals" variable
@@ -20,12 +26,18 @@
 //    - The custom command should provide the accessed value (i.e. the list element)
 // 6) Execute your custom command from (5) and output ("alert") the result
 
-// Answer question 1
-var onlineCourse = "Academind";
-var priceCourse = "3000";
-var mainGoals = "Developer";
 
 // Answer question 2
-alert (onlineCourse);
-alert (priceCourse);
-alert (mainGoals);
+// alert (onlineCourse);
+// alert (priceCourse);
+// alert (mainGoals);
+
+// Answer question 3
+let group = {
+    name: 'Academind', 
+    price: 3000, 
+    Goals: "Developer"
+}
+
+alert(group.name)
+
