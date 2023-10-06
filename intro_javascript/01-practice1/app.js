@@ -29,7 +29,10 @@ let group = {
 alert (group.onlineCourse);
 alert (group.priceCourse);
 alert (group.mainGoals);
+
 // 4) Also output the second element in your "main goals" variable
+alert (mainGoals[1]);
+
 // 5) Add a custom command that does the following:
 //    - Use your "main goals" variable and access an element by its identifier
 //    - The concrete identifier value should be dynamic / flexible 
