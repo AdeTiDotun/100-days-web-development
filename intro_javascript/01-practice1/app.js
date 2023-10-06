@@ -15,6 +15,10 @@ let priceCourse = 3000;
 let mainGoals = ['Developer', 'Job', 'Freedom'];
 
 // 2) Output ("alert") the three variable values
+alert (onlineCourse);
+alert (priceCourse);
+alert (mainGoals);
+
 // 3) Try "grouping" the three variables together and still output their values thereafter
 // 4) Also output the second element in your "main goals" variable
 // 5) Add a custom command that does the following:
@@ -27,10 +31,6 @@ let mainGoals = ['Developer', 'Job', 'Freedom'];
 // 6) Execute your custom command from (5) and output ("alert") the result
 
 
-// Answer question 2
-// alert (onlineCourse);
-// alert (priceCourse);
-// alert (mainGoals);
 
 // Answer question 3
 let group = {
