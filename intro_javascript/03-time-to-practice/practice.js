@@ -2,6 +2,8 @@
 
 // 1. Select the <h1> element by "drilling into the DOM" and 
 //    save it in a variable with a name of your choice
+// console.dir(document);
+document.body.children[0].childNodes[0] 
 // 2. Use the variable from (1) and get access to the "parent"
 //    element of the stored <h1> element (i.e. to the <body> element)
 //    BONUS: Try using the variable from (1) to get access to the 
