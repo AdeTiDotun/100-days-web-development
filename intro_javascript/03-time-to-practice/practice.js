@@ -16,8 +16,12 @@
 //    the same or a new variable (up to you)
     document.getElementById("heading");
     let newAlpha = document.getElementById("heading");
+
 // 4. Select the second <p> element with querySelector (you might
 //    need to add something in the HTML code, e.g. a class) 
 //    and store it in a new variable with a name of your choice
+    document.querySelector(".paragraph");
+
 // 5. BONUS TASK: Try changing the text content of the <p> element
 //    you selected in (4) and set it to any other text of your choice
+    document.querySelector(".paragraph").innerHTML = "Link";
