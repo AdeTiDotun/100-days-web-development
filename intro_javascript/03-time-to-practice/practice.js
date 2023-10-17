@@ -11,9 +11,11 @@
 //    sibling element (i.e. the <p> element next to the <h1> element)
     alpha.parentElement;
     alpha.nextElementSibling;
-    
+
 // 3. Select the <h1> element with getElementById and store in
 //    the same or a new variable (up to you)
+    document.getElementById("heading");
+    let newAlpha = document.getElementById("heading");
 // 4. Select the second <p> element with querySelector (you might
 //    need to add something in the HTML code, e.g. a class) 
 //    and store it in a new variable with a name of your choice
