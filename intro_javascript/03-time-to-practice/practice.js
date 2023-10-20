@@ -4,6 +4,7 @@
     document.body.children[0];
 //    save it in a variable with a name of your choice
     let alpha = document.body.children[0];
+    console.dir(alpha);
 
 // 2. Use the variable from (1) and get access to the "parent"
 //    element of the stored <h1> element (i.e. to the <body> element)
@@ -25,3 +26,5 @@
 // 5. BONUS TASK: Try changing the text content of the <p> element
 //    you selected in (4) and set it to any other text of your choice
     document.querySelector(".paragraph").innerHTML = "Link";
+
+    
