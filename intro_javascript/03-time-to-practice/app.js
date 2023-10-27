@@ -7,3 +7,4 @@ function changeElement() {
 }
 
 paragraphElement.addEventListener ('click', changeElement);
+
