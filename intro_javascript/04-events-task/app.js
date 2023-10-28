@@ -1,8 +1,14 @@
 
 let inputElement = document.querySelector('input');
+let inputChars = document.getElementById('remainingChars');
+
 
 function updateInputElement() {
     let eneterdText = inputElement.value;
-    console.log(eneterdText);
+    let textLength = eneterdText.length;
+   
+
+    inputChars.textContent = 60 - textLength;
 }
+
 inputElement.addEventListener('input', updateInputElement);
