@@ -43,5 +43,13 @@ console.dir(secondParagraph);
 // 4) Change the functions from (2) such that:
 //    - The first button removes the third paragraph (i.e. the <p> prior to it)
 //    - The second button changes the background color of the first paragraph to blue
+
+function removeThirdParagraph() {
+    secondParagraph.remove()
+}
+
+firstButton.addEventListener('click', removeThirdParagraph);
+
+
 // 5) Solve (4) both by changing the "inline styles" as well as by adding CSS classes
 //    Note: You'll have to add those classes to the styles.css file first!
