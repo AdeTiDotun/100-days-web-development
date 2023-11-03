@@ -1,5 +1,5 @@
 // Practice what you learned
-// console.dir(document);
+console.dir(document);
 
 // 1) Select the two <button> elements and store them in two different variables.
 //    - Select the first button without adding or using any "id"
@@ -18,8 +18,13 @@ function outputFirstButton() {
     console.dir(firstButton);
 }
 
+function outputSecondButton() {
+    document.getElementById("button2");
+    console.dir(button2)
+}
+
 firstButton.addEventListener('click', outputFirstButton);
-// secondButton.addEventListener('click', );
+secondButton.addEventListener('click', outputSecondButton);
 
 
 // 3) Now select and store the paragraphs mentioned in the text you see on the page
