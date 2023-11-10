@@ -47,9 +47,14 @@ console.dir(secondParagraph);
 function removeThirdParagraph() {
     secondParagraph.remove()
 }
-
 firstButton.addEventListener('click', removeThirdParagraph);
 
+// document.getElementById("color");
+// function changeParagraphColor() {
+//     let changeColor = document.getElementById("color");
+//     changeColor.className = "changeColor"
+// }
+// secondButton.addEventListener('click' changeParagraphColor);
 
 // 5) Solve (4) both by changing the "inline styles" as well as by adding CSS classes
 //    Note: You'll have to add those classes to the styles.css file first!
