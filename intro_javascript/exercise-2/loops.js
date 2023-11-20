@@ -13,3 +13,15 @@ for (const storeArray of myObjects) {
     console.log (storeArray);
 }
 
+//for...in statement; basically works or ilterates over objects.
+
+const objectUser = {
+    name: "Daniel",
+    job: "Developer",
+    status: "Growth_mood"
+}
+
+for (const realObjects in objectUser) {
+    console.log(realObjects);
+    console.log(objectUser[realObjects]);
+}
